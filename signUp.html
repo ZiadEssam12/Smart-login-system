@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Source+Sans+Pro:300,400|Kaushan+Script|Lora|Playfair+Display:700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    
+
+    <title>Login</title>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+  <main class="d-flex justify-content-center mt-5">
+
+    <section id="loginForm" class="pt-5 px-5 pb-5 w-55">
+      <h1 class="text-center">Smart Login System</h1>
+      <input type="text" placeholder="Enter Your Name" id="inputName" class="form-control bg-transparent mt-4">
+      <input type="text" placeholder="Enter Your Email" id="inputEmail" class="form-control bg-transparent mt-3 mb-">
+      <input type="password" placeholder="Enter Your password" id="inputPassword" class="form-control mt-3 mb-2 bg-transparent" >
+      <p class="text-center text-danger mt-4 d-none" id ="alert">All inputs is required</p>
+      <p class="text-center text-danger mt-4 d-none" id ="emailExists">email already exists</p>
+      <button type="button" id="signup" class="btn btn-outline-info form-control mt-4">Sign up</button>
+      <p class="text-center mt-3 text-white">You have An Account? <a href="./index.html">Sign in</a></p>
+
+    </section>
+
+  </main>
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/signup.js"></script>
+</body>
+</html>
+
